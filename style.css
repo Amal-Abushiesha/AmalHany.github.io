@@ -10,18 +10,57 @@ section {
     visibility: hidden;
   }
   .bgc-1 {
-    background-color: #96B6C5;
+    background-color: #594442;
   }
   .bgc-2 {
-    background-color: #ADC4CE;
+    background-color: #594442;
   }
   .bgc-3 {
-    background-color: #eee0c9;
+    background-color: #F2D1C9;
   }
   .bgc-4 {
-    background-color: #f1f0e8;
+    background-color: #A68C8A;
   }
   a {
-    color:black;
+    color:rgb(255, 255, 255);
     text-decoration: none;
   }
+  .btn.bgc-2.m-1 {
+    color:white;
+    border: 1px solid white;
+  }
+  #profile{
+    color:white;
+  }
+.display-2.fw-bold{
+  font-family: "Playwrite DE SAS", cursive; 
+  
+}
+.btn.btn-lg.bgc-2.mt-3 {
+  color:white;
+}
+.btn.btn-lg.bgc-2.mt-3:hover {
+  text-shadow: 1px 1px 2px #594442;
+}
+#youtubeLink a {
+  color: #594442;
+  text-decoration: none;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none; /* remove default icon */
+}
+
+.carousel-control-prev::after {
+  content: '<'; 
+  font-size: 2rem;
+  text-shadow:  1px 1px 2px#000000;
+  color: rgb(255, 255, 255);
+}
+
+.carousel-control-next::after {
+  content: '>';
+  font-size: 2rem;
+  text-shadow:  1px 1px 2px#000000;
+  color: rgb(255, 255, 255);
+}
